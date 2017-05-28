@@ -34,6 +34,32 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
+footer{
+ 
+  height: 200px;
+  background: #f3f2f2;
+}
+ 
+div .footer-nav{
+
+  height: 200px;
+  width: 100%;
+  -webkit-columns: 100px 4; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 4; /* Firefox */
+  columns: 100px 4;
+  color: #333;
+
+}
+div .footer-nav ul{
+
+margin-bottom: 0px;
+list-style-type: none;
+
+
+}
+
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -185,8 +211,42 @@ table {
   border-collapse: collapse;
 }
 
+#middle-module{
+  text-align: center;
+  font-size: 1.8em;
+  background: f3f2f2;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
 
+}
+#left-module{
+  text-align: center;
+  font-size: 1.8em;
+  background: f3f2f2;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+}
 
+.calculator{
+  margin-top: 60px;
+  padding: 1%;
+}
+
+.kickstarter{
+    margin-top: 60px;
+  padding: 1%;
+}
+.product{
+  margin: 0 auto;
+  padding-left: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+#right-module{
+  padding-left: 0;
+}
 
 td,
 th {
@@ -1623,6 +1683,7 @@ pre code {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
+  height: 240px;
   padding-left: 15px;
   background: #fbfbfb;
   border: 1px solid white;
